@@ -1,0 +1,54 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <color name="black">#000000</color>
+    <color name="winlime">#A4C400</color>
+    <color name="wingreen">#60A917</color>
+    <color name="winemerald"> #008A00</color>
+    <color name="winteal">#00ABA9</color>
+    <color name="wincyan">#1BA1E2</color>
+    <color name="wincobalt">#0050EF</color>
+    <color name="winindigo">#6A00FF</color>
+    <color name="winviolate">#AA00FF</color>
+    <color name="winpink">#F472D0</color>
+    <color name="winmagenta">#D80073</color>
+    <color name="wincrimson">#A20025</color>
+    <color name="winred">#E51400</color>
+    <color name="winorange">#FA6800</color>
+    <color name="winpurplelight1">#8C0095</color>
+    <color name="winpurplelight2">#A700AE</color>
+    <color name="winpurpledark1">#5133AB</color>
+    <color name="winpurpledark2">#643EBF</color>
+    <color name="winamber">#F0A30A</color>
+    <color name="winyellow">#E3C800</color>
+    <color name="winbrown">#825A2C</color>
+    <color name="winolive">#6D8764</color>
+    <color name="winsteel">#647687</color>
+    <color name="winmauve">#76608A</color>
+    <color name="wintaupe"> #87794E</color>
+    <color name="whiteFlorel">#fffaf0</color>
+    <color name="whiteSnow1">#fffafa</color>
+    <color name="whiteSnow2">#eee9e9</color>
+    <color name="whiteSnow3">#cdc9c9</color>
+    <color name="whiteSnow4">#8b8989</color>
+    <color name="whiteGhost">#f8f8ff</color>
+    <color name="whiteSmoke">#f5f5f5</color>
+    <color name="whiteGainboro">#0dccdc</color>
+    <color name="lightTeal">#00A0B1</color>
+    <color name="lightBlue">#2E8DEF</color>
+</resources>

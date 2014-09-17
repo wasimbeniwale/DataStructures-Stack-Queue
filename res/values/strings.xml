@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="strDrag">[-]</string>
+    <string name="app_name">Data Structures</string>
+    <string name="action_settings">Settings</string>
+    <string name="imgStack">Stack Image</string>
+    <string name="imgQueue">Queue Image</string>
+    <string name="imgStackbook">Stack of books</string>
+    <string name="imgStart">Start Image</string>
+    <string name="imgAbout">About Image</string>
+    <string name="imgHelp">Help Image</string>
+    <string name="imgContact">Contact Image</string>
+    <string name="imgInformation">Information Image</string>
+    <string name="imgExit">Exit Image</string>
+    <string name="imgReturn">Return Image</string>
+    <string name="imgNext">Next Image</string>
+    <string name="imgTheory">Theory Image</string>
+    <string name="imgAnimation">Animation Image</string>
+    <string name="imgInteractive">Interactive Image</string>
+    <string name="imgQuestions">Questionnare Image</string>
+    <string name="txtAlgorithm">Algorithm</string>
+    <string name="txtProgram">Program</string>
+    <string name="txtConceptQueue">Core concept of Queue</string>
+    <string name="txtConceptStack">Core concept of Stack</string>
+    <string name="btnStart">Start Application</string>
+    <string name="btnAbout">About</string>
+    <string name="btnHelp">Help</string>
+    <string name="btnContact">Contact us</string>
+    <string name="btnPush">Insert Item (Push)</string>
+    <string name="btnPop">Remove Item (Pop)</string>
+    <string name="txtMsg">An application on Data Structures</string>
+    <string name="title_activity_start_application">Start Application</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_stack">Stack</string>
+    <string name="title_activity_queue">Queue</string>
+    <string name="title_activity_information">Information</string>
+    <string name="title_activity_launch">Data Structures</string>
+    <string name="title_activity_theory">Theory</string>
+    <string name="theory">Theorotical information about the application</string>
+    <string name="title_activity_animation">Animation</string>
+    <string name="aboutApp"> Now a days understanding DATA STRUCTURES / ALGORTHM is a cardinal task as every Operating System (Android, iOS or Windows) uses Data structures to perform their internal operations. \n\nThis App will help teachers and students to understand data structure, its implementations and working. \n\nThis app shows GRAPHICAL representation of STACK and QUEUE data structure operation which makes it easier for students to understand the concept behind data structure implementation. \n\nWe have also provided some interactive example about stack and queue with there effective operation like PUSH ,POP so students will get idea about data structure operations with less effort. </string>
+    <string name="help">You can use this app as follows:\n\n1. Click start button to start application.\n2. Click on Stack button to get information about the stack or Click on Queue button to get information about Queue.
+        \n\n3. These activity screens contains four Buttons \n1.Theory: Theorotical information about the data structure i.e. Core concept, an Algorithm and A C program.
+        \n2. Animation : Graphical representation of data structure. \n3. Interactive : in this scenario you supposed to make data structure by your own.
+        \n4. Questions : Contains 4 Multiple Choice Questions about data structure.</string>
+    <string name="information">In computer science, a data structure is a particular way of storing and organizing data in a computer so that it can be used efficiently.
+\n\nDifferent kinds of data structures are suited to different kinds of applications, and some are highly specialized to specific tasks. 
+\nFor example, B-trees are particularly well-suited for implementation of databases, while compiler implementations usually use hash tables to look up identifiers.
+\n\nData structures provide a means to manage large amounts of data efficiently, such as large databases and internet indexing services. Usually, efficient data structures are a key to designing efficient algorithms. Some formal design methods and programming languages emphasize data structures, rather than algorithms, as the key organizing factor in software design. Storing and retrieving can be carried out on data stored in both main memory and in secondary memory.
+\n\nData structures are generally based on the ability of a computer to fetch and store data at any place in its memory, specified by an address—a bit string that can be itself stored in memory and manipulated by the program. Thus the record and array data structures are based on computing the addresses of data items with arithmetic operations; while the linked data structures are based on storing addresses of data items within the structure itself. Many data structures use both principles, sometimes combined in non-trivial ways (as in XOR linking).
+The implementation of a data structure usually requires writing a set of procedures that create and manipulate instances of that structure. The efficiency of a data structure cannot be analyzed separately from those operations. This observation motivates the theoretical concept of an abstract data type, a data structure that is defined indirectly by the operations that may be performed on it, and the mathematical properties of those operations (including their space and time cost).</string>
+    <string name="contact">Prof. Ravindra Vaidya \nEmail- rpv.imcc@mespune.in \n\nWasim Chandu Beniwale \nEmail- wasimb4@gmail.com \n\nMahesh NarendraSingh Girase \nEmail- m.n.girase@gmail.com</string>
+    <string name="title_activity_stack_theory">Theory</string>
+    <string name="title_activity_queue_theory">Queue Theory</string>
+    <string name="title_activity_stack_algorithm">Stack Algorithm</string>
+    <string name="title_activity_stack_program">Stack Program</string>
+    <string name="title_activity_queue_algorithm">Queue Algorithm</string>
+    <string name="title_activity_queue_program">Queue Program</string>
+    <string name="title_activity_stack_animation">Stack Animation</string>
+    <string name="title_activity_queue_animation">Queue Animation</string>
+    <string name="theory_stack">        In computer science, a stack is a particular kind of abstract data type or collection in which the principal (or only) operations on the collection are the addition of an entity to the collection, known as push and removal of an entity, known as pop. \n\nThe relation between the push and pop operations is such that the stack is a Last-In-First-Out (LIFO) data structure. In a LIFO data structure, the last element added to the structure must be the first one to be removed. This is equivalent to the requirement that, considered as a linear data structure, or more abstractly a sequential collection, the push and pop operations occur only at one end of the structure, referred to as the top of the stack. \n\nOften a peek or top operation is also implemented, returning the value of the top element without removing it.
+A stack may be implemented to have a bounded capacity. If the stack is full and does not contain enough space to accept an entity to be pushed, the stack is then considered to be in an overflow state. \n\nThe pop operation removes an item from the top of the stack. A pop either reveals previously concealed items or results in an empty stack, but, if the stack is empty, it goes into underflow state, which means no items are present in stack to be removed.
+A stack is a restricted data structure, because only a small number of operations are performed on it. The nature of the pop and push operations also means that stack elements have a natural order. Elements are removed from the stack in the reverse order to the order of their addition. Therefore, the lower elements are those that have been on the stack the longest.
+\n\nThe stack was first proposed in 1946, in the computer design of Alan M. Turing (who used the terms "bury" and "unbury") as a means of calling and returning from subroutines. The Germans Klaus Samelson and Friedrich L. Bauer proposed the idea in 1955 and filed a patent in 1957. The same concept was developed, independently, by the Australian Charles Leonard Hamblin in the first half of 1957.</string>
+    <string name="theory_queue">        In computer science, a queue is a particular kind of abstract data type or collection in which the entities in the collection are kept in order and the principal (or only) operations on the collection are the addition of entities to the rear terminal position, known as enqueue, and removal of entities from the front terminal position, known as dequeue. This makes the queue a First-In-First-Out (FIFO) data structure. \n\nIn a FIFO data structure, the first element added to the queue will be the first one to be removed. This is equivalent to the requirement that once a new element is added, all elements that were added before have to be removed before the new element can be removed. Often a peek or front operation is also implemented, returning the value of the front element without dequeuing it. \n\nA queue is an example of a linear data structure, or more abstractly a sequential collection.
+Queues provide services in computer science, transport, and operations research where various entities such as data, objects, persons, or events are stored and held to be processed later. In these contexts, the queue performs the function of a buffer.
+Queues are common in computer programs, where they are implemented as data structures coupled with access routines, as an abstract data structure or in object-oriented languages as classes. \n\nCommon implementations are circular buffers and linked lists.
+Check-out lines, escalators, coin dispensers, and vending machines use queues. In each of the cases, the customer or object at the front of the line was the first one to enter, while at the end of the line is the last to have entered. Every time a customer finishes paying for their items (or a person steps off the escalator, or a coin is removed from a tube of the coin dispenser, etc.) that object leaves the queue from the front. This represents the queue “dequeue” function. Every time another object or customer enters the line to wait, they join the end of the line and represent the “enqueue” function. The queue size function would return the length of the line, and the “empty” function would return true only if there was nothing in the line.</string>
+    <string name="title_activity_stack_interactive">Stack Interactive</string>
+    <string name="title_activity_queue_interactive">Queue Interactive</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_stack_question">Stack Questions</string>
+    <string name="title_activity_queue_question">Queue Questions</string>
+    <string name="question_queue1">Elements into a queue can be inserted</string>
+    <string name="queue1_a"> From the tail</string>
+    <string name="queue1_b">  From the front</string>
+    <string name="queue1_c">From front and rear</string>
+    <string name="queue1_d">None of the above</string>
+    <string name="question_queue2">Operations on a queue are effected from </string>
+    <string name="queue2_a"> One end</string>
+    <string name="queue2_b"> Any point in the queue</string>
+    <string name="queue2_c">Front</string>
+    <string name="queue2_d">Both the ends</string>
+    <string name="question_queue3">Deletion of an element from a queue causes </string>
+    <string name="queue3_a"> Decrease in the front counter</string>
+    <string name="queue3_b"> Increase in the front counter</string>
+    <string name="queue3_c"> Decrease in the rear counter</string>
+    <string name="queue3_d">cannot say </string>
+    <string name="question_queue4">Initially setting rear -1 and the counter front to zero, the condition that queue is empty is given by</string>
+    <string name="queue4_a"> rear = front</string>
+    <string name="queue4_b"> rear is greater than front </string>
+    <string name="queue4_c"> rear is less than front</string>
+    <string name="queue4_d">rear = front = 0 </string>
+    <string name="question_stack1">Stack is a an ordered collection of items forming a list that is</string>
+    <string name="stack1_a">Last-in-first-out </string>
+    <string name="stack1_b">  One-end-first-out</string>
+    <string name="stack1_c"> Top-in-first-out </string>
+    <string name="stack1_d">First-in-first-out</string>
+    <string name="question_stack2">When a data item is pushed onto the stack the non-top end of the stock</string>
+    <string name="stack2_a">Moves downward</string>
+    <string name="stack2_b">Moves upward</string>
+    <string name="stack2_c">Can not say</string>
+    <string name="stack2_d"> Remains same as before</string>
+    <string name="question_stack3">In the array representation of the stack the stack size</string>
+    <string name="stack3_a"> Is fixed with the array</string>
+    <string name="stack3_b"> Varies within the array</string>
+    <string name="stack3_c"> Varies with the array</string>
+    <string name="stack3_d">Garbage</string>
+    <string name="question_stack4">Implementation of a stack is done by means of</string>
+    <string name="stack4_a">One-dimensional array</string>
+    <string name="stack4_b">Combination of array with static variable</string>
+    <string name="stack4_c"> Combination of an array and a counter</string>
+    <string name="stack4_d"> Combination of a sequential list and an array</string>
+    <string name="infoQueue">In this scenario you have to make queue of buttons\nFirst Click on the insert button then drag the ds buttons into the teal colored layout to make a Queue\nTo delete items click on Remove button.</string>
+    <string name="infoStack">In this scenario you have to make stack of buttons\nFirst Click on the insert button then drag the ds buttons into the gray colored layout having black boundries to make a Stack\nTo delete items click on Remove button.</string>
+
+</resources>

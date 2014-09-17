@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<br/>/****** Program to Implement Queue using Array ******/
+<br/><br/>#include "stdio.h"
+<br/>#define MAX 50;
+<br/><br/>void insert();
+<br/>void delet();
+<br/>void display();
+<br/>int queue[MAX], rear=-1, front=-1, item;
+<br/><br/>main()
+<br/>{
+<br/>int ch;
+<br/>do
+<br/>{
+<br/>printf("\n\n1. Insert\n2. Delete\n3. Display\n4. Exit\n");
+<br/>printf("\nEnter your choice: ");
+<br/>scanf("%d", &ch);
+<br/>switch(ch)
+<br/>{
+<br/>case 1:
+<br/>insert();
+<br/>break;
+<br/>case 2:
+<br/>delet();
+<br/>break;
+<br/>case 3:
+<br/>display();
+<br/>break;
+<br/>case 4:
+<br/>exit(0);
+<br/>default:
+<br/>printf("\n\nInvalid entry. Please try again...\n");
+<br/>}
+<br/>} while(1);
+<br/>getch();
+<br/>}
+<br/><br/>void insert()
+<br/>{
+<br/>if(rear == MAX-1)
+<br/>printf("\n\nQueue is full.");
+<br/>else
+<br/>{
+<br/>printf("\n\nEnter ITEM: ");
+<br/>scanf("%d", &item);
+<br/>if (rear == -1 && front == -1)
+<br/>{
+<br/>rear = 0;
+<br/>front = 0;
+<br/>}
+<br/>else
+<br/>rear++;
+<br/>queue[rear] = item;
+<br/>printf("\n\nItem inserted: %d", item);
+<br/>}
+<br/>}
+<br/><br/>void delet()
+<br/>{
+<br/>if(front == -1)
+<br/>printf("\n\nQueue is empty.");
+<br/>else
+<br/>{
+<br/>item = queue[front];
+<br/>if (front == rear)
+<br/>{
+<br/>front = -1;
+<br/>rear = -1;
+<br/>}
+<br/>else
+<br/>front++;
+<br/>printf("\n\nItem deleted: %d", item);
+<br/>}
+<br/>}
+<br/><br/>void display()
+<br/>{
+<br/>int i;
+<br/>if(front == -1)
+<br/>printf("\n\nQueue is empty.");
+<br/>else
+<br/>{
+<br/>printf("\n\n");
+<br/>for(i=front; i<=rear; i++)
+<br/>printf(" %d", queue[i]);
+<br/>}
+<br/>}
+</pre>
+</body>
+<html>

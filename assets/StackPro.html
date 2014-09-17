@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+/****** Program to Implement Stack using Array ******/
+<br/><br/>#include "stdio.h"
+<br/>#define MAX 50;
+<br/><br/>void push();
+<br/>void pop();
+<br/>void display();
+<br/><br/>int stack[MAX], top=-1, item;
+<br/>main()
+<br/>{
+<br/>int ch;
+<br/>do
+<br/>{
+<br/>printf("\n\n\n\n1.\tPush\n2.\tPop\n3.\tDisplay\n4.\tExit\n");
+<br/>printf("\nEnter your choice: ");
+<br/>scanf("%d", &ch);
+<br/>switch(ch)
+<br/>{
+<br/>case 1:
+<br/>push();
+<br/>break;
+<br/>case 2:
+<br/>pop();
+<br/>break;
+<br/>case 3:
+<br/>display();
+<br/>break;
+<br/>case 4:
+<br/>exit(0);
+<br/>default:
+<br/>printf("\n\nInvalid entry. Please try again...\n");
+<br/>}
+<br/>} while(ch!=4);
+<br/>getch();
+<br/>}
+<br/><br/>void push()
+<br/>{
+<br/>if(top == MAX-1)
+<br/>printf("\n\nStack is full.");
+<br/>else
+<br/>{
+<br/>printf("\n\nEnter ITEM: ");
+<br/>scanf("%d", &item);
+<br/>top++;
+<br/>stack[top] = item;
+<br/>printf("\n\nITEM inserted = %d", item);
+<br/>}
+<br/>}
+<br/><br/>void pop()
+<br/>{
+<br/>if(top == -1)
+<br/>printf("\n\nStack is empty.");
+<br/>else
+<br/>{
+<br/>item = stack[top];
+<br/>top--;
+<br/>printf("\n\nITEM deleted = %d", item);
+<br/>}
+<br/>}
+<br/><br/>void display()
+<br/>{
+<br/>int i;
+<br/>if(top == -1)
+<br/>printf("\n\nStack is empty.");
+<br/>else
+<br/>{
+<br/>for(i=top; i>=0; i--)
+<br/>printf("\n%d", stack[i]);
+<br/>}
+<br/>}
+</pre>
+</body>
+</html>
