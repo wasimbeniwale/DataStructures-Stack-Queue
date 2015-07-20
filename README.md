@@ -32,7 +32,7 @@ An interactive android application to understand data structures (Stack and Queu
 9. Contact : 
 	1) Wasim Beniwale
 	E-mail: wasimb4@gmail.com
-	Phone: +919921871891
+	Phone: +918149670368
 
 	2) Mahesh Girase
 	E-mail: m.n.girase@gmail.com
